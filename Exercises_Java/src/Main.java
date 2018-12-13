@@ -4,5 +4,9 @@ public class Main {
         grades.knowingMyGrade();
         System.out.println(grades.getAge());
 
+
+        MovieTheater clasifyCinema = new MovieTheater("comedy");
+        clasifyCinema.chooseCategory(clasifyCinema.getCategory());
+
     }
 }
