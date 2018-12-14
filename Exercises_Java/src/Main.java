@@ -3,7 +3,7 @@ public class Main {
         /*Put any age and discover your school Grade
         * IF-ELSE
         */
-        SchoolGrades grades= new SchoolGrades(32);
+        SchoolGrades grades= new SchoolGrades(24);
         grades.knowingMyGrade();
         System.out.println("Tienes " + grades.getAge() + " años." + "\n");
 
