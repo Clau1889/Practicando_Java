@@ -15,13 +15,13 @@ public class SchoolGrades {
     public SchoolGrades(int age){
         this.setAge(age);
         //this.age = age;
+        knowingMyGrade();
     }
-
 
     /*Control_sentences using conditions
      * First Example:  IF-ELSE IF- ELSE
      *  US-GRADES */
-    public void knowingMyGrade() {
+    private void knowingMyGrade() {
 
         if (this.age < 3) {
             System.out.println("Sorry!, You cannot be in school yet.");

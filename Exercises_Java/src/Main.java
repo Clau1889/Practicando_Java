@@ -3,8 +3,7 @@ public class Main {
         /*Put any age and discover your school Grade
         * IF-ELSE
         */
-        SchoolGrades grades= new SchoolGrades(24);
-        grades.knowingMyGrade();
+        SchoolGrades grades= new SchoolGrades(18);
         System.out.println("Tienes " + grades.getAge() + " años." + "\n");
 
         /* Choices: Action, Fiction, Comedy, drama, fantasy, musical, love, thriller, scary and take movie recomendations
