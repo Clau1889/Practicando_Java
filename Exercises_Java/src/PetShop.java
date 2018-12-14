@@ -1,4 +1,4 @@
-/* Example ARRAY  */
+/* Example ARRAY */
 
 public class PetShop {
 
@@ -9,6 +9,5 @@ public class PetShop {
             System.out.println(animals);
         }
     }
-
 
 }

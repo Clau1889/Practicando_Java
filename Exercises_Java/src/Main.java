@@ -5,16 +5,14 @@ public class Main {
         */
         SchoolGrades grades= new SchoolGrades(32);
         grades.knowingMyGrade();
-        System.out.println(grades.getAge());
+        System.out.println("Tienes " + grades.getAge() + " años." + "\n");
 
-        System.out.println();
         /* Choices: Action, Fiction, Comedy, drama, fantasy, musical, love, thriller, scary and take movie recomendations
         * SWITCH
         */
         MovieTheater clasifyCinema = new MovieTheater("comedy");
         clasifyCinema.chooseCategory(clasifyCinema.getCategory());
 
-        System.out.println();
         /* Finding current avaible pets in PetShop
         * ARRAY
         */

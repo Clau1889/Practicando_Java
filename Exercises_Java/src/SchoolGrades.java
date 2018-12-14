@@ -29,13 +29,13 @@ public class SchoolGrades {
         } else if (getAge() == 6) {
             System.out.println("Amazing!, You are officially in Kindergarten.");
         } else if (getAge() > 6 && getAge() <= 11) {
-            System.out.println("Awesome!, You are in Elementary School");
+            System.out.println("Awesome!, You are in Elementary School.");
         } else if (getAge() > 11 && getAge() <= 15) {
-            System.out.println("Great!, You are a fantastic teenager and you are in Middle School");
+            System.out.println("Great!, You are a fantastic teenager and you are in Middle School.");
         } else if (getAge() > 15 && getAge() <= 18) {
-            System.out.println("Wow! You are almost done. You are in High School");
+            System.out.println("Wow! You are almost done. You are in High School.");
         } else if (getAge() > 18 && getAge() <= 22) {
-            System.out.println("Nice Job!, Right now you are in College");
+            System.out.println("Nice Job!, Right now you are in College.");
         } else {
             System.out.println("Wonderful!, You are at University.");
         }
