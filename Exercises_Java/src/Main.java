@@ -10,7 +10,7 @@ public class Main {
         * SWITCH
         */
         MovieTheater clasifyCinema = new MovieTheater("comedy");
-        clasifyCinema.chooseCategory(clasifyCinema.getCategory());
+        System.out.println("You choice: " + clasifyCinema.chooseCategory() + "\n");
 
         /* Finding current avaible pets in PetShop
         * ARRAY
