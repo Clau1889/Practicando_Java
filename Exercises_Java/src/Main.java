@@ -18,5 +18,12 @@ public class Main {
         PetShop pet= new PetShop();
         System.out.println("Current avaible pets: " + pet.pets.length);
         pet.avaiblePets();
+
+        /*Using arithmetic symbols to know different distances
+        * POLYMORPHISM => OVERLOAD */
+        Distance calculateDistance = new Distance();
+        System.out.println("Your first distance is: " + calculateDistance.distance1(3, 5.5, 6) + " km");
+        System.out.println("Your second distance is: " + calculateDistance.distance1(2, 3.5) + " km");
+
     }
 }
